@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: ReactJS Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -26,7 +26,7 @@ jobs:
           name: builds
           path: build
   deploy:
-    name: Deploy
+    name: Firebase Deployment 
     needs: build
     runs-on: ubuntu-latest
     steps:
