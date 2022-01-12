@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           JAYASIN PRABHU C <br />
-          Full Stack Developer & Team Lead
+          Team Leader & Full Stack Developer
         </p>
       </header>
     </div>
