@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          JAYASIN PRABHU C B.E
+          JAYASIN PRABHU C <br />
+          Full Stack Developer & Team Lead
         </p>
       </header>
     </div>
