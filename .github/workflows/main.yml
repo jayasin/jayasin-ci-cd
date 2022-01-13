@@ -16,11 +16,11 @@ jobs:
         uses: actions/checkout@main
       - name: Install dependencies
         run: yarn install
-      - name: Build dependencies
+      - name: Create Build
         run: yarn run build
         env: 
           CI: false    
-      - name: Archive production artifact
+      - name: Archive Build
         uses: actions/upload-artifact@main
         with:
           name: builds

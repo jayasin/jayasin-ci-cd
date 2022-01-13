@@ -6,10 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="flex">
         <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <p>
-          JAYASIN PRABHU C <br />
-          Team Leader & Full Stack Developer
+          Jayasin & Team <br />
+          ReactJS | Angular | NodeJS | MongoDB | DynamoDB
         </p>
       </header>
     </div>
